@@ -1,0 +1,21 @@
+{
+  "name": "mailspring-matomo-tracking",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "title": "Matomo Tracking for MailPixel",
+  "description": "Add a Matomo cloud tracking pixel to your outgoing mails in MailSpring",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/sam-heller/mailspring-matomo-tracking"
+  },
+  "engines": {
+    "mailspring": "*"
+  },
+  "windowTypes": {
+    "default": true,
+    "composer": true,
+    "thread-popout": true
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
